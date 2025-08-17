@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Demo de Padding</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ejemplos de padding</h1>
+
+  <section class="grid">
+    <div class="box pad-16">
+      <h2>padding: 16px;</h2>
+      <p>Padding igual en todos los lados.</p>
+    </div>
+
+    <div class="box pad-vertical-horizontal">
+      <h2>padding: 8px 24px;</h2>
+      <p>8px arriba/abajo y 24px izquierda/derecha.</p>
+    </div>
+
+    <div class="box pad-cuatro-valores">
+      <h2>padding: 10px 20px 30px 40px;</h2>
+      <p>Arriba 10, derecha 20, abajo 30, izquierda 40.</p>
+    </div>
+
+    <div class="box pad-lados">
+      <h2>padding por lado</h2>
+      <p>top 20, right 5, bottom 20, left 5.</p>
+    </div>
+
+    <div class="box pad-responsive">
+      <h2>padding responsive (clamp)</h2>
+      <p>Entre 12px y 32px, según ancho de pantalla.</p>
+    </div>
+
+    <div class="box pad-contenedor">
+      <h2>box-sizing y padding</h2>
+      <p>El ancho incluye el padding (border-box).</p>
+    </div>
+  </section>
+</body>
+</html>
